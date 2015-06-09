@@ -104,10 +104,10 @@
 			}
 		},
 		{
-			"file": ".gitattributes",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 378,
+				"buffer_size": 235,
 				"line_ending": "Windows"
 			}
 		},
@@ -116,14 +116,6 @@
 			"settings":
 			{
 				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 446,
 				"line_ending": "Windows"
 			}
 		}
@@ -207,10 +199,17 @@
 	[
 		"/C/xampp/htdocs/Labs/practicas/sass-compass",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/_",
-		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/components"
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/node_modules"
 	],
 	"file_history":
 	[
+		"/C/Users/yoansky/.gitconfig",
+		"/C/Users/yoansky/Prepros-Error-Log.html",
+		"/C/Users/yoansky/.bash_history",
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/npm-debug.log",
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/.gitattributes",
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/.gitignore",
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/compass-sass.sublime-workspace",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/components/sass/style.scss",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/_components/sass/style.scss",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/script.js",
@@ -331,14 +330,7 @@
 		"/C/xampp/htdocs/Labs/MIS-PROYECTOS/THEMES/theme car wheels/theme/manual_install/theme1133/dump.sql",
 		"/C/xampp/htdocs/Labs/prueba-tienda/themes/theme1133/maintenance.tpl",
 		"/C/xampp/htdocs/Labs/prueba-tienda/themes/default-bootstrap/modules/blocktopmenu/blocktopmenu.tpl",
-		"/C/xampp/htdocs/Labs/prueba-tienda/themes/theme1133/sass/modules/blocklanguages/blocklanguages.scss",
-		"/C/xampp/htdocs/Labs/prueba-tienda/themes/theme1133/header.tpl",
-		"/C/xampp/htdocs/Labs/prueba-tienda/themes/theme1133/footer.tpl",
-		"/C/xampp/htdocs/Labs/prueba-tienda/classes/controller/FrontController.php",
-		"/C/xampp/htdocs/Labs/prueba-tienda/themes/theme1133/sass/modules/themeconfigurator/css/theme2.scss",
-		"/C/xampp/htdocs/Labs/prueba-tienda/themes/theme1133/sass/_theme_variables.scss",
-		"/C/Users/yoansky/AppData/Local/Temp/wz14ef/theme/manual_install/theme1133/dump.sql",
-		"/C/Users/yoansky/AppData/Local/Temp/wz3dad/Config.xml"
+		"/C/xampp/htdocs/Labs/prueba-tienda/themes/theme1133/sass/modules/blocklanguages/blocklanguages.scss"
 	],
 	"find":
 	{
@@ -510,7 +502,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -526,8 +518,68 @@
 						"selection":
 						[
 							[
-								573,
-								573
+								216,
+								216
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
 							]
 						],
 						"settings":
@@ -548,62 +600,19 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Seti_UI/Langs/npm JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": ".gitattributes",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 378,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								378,
-								378
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Seti_UI/Langs/Git.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -636,6 +645,22 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"incomplete_sync": null,
@@ -647,51 +672,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 446,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								254,
-								254
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"apply_syntax_touched": true,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Seti_UI/Langs/Git.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -752,7 +733,7 @@
 		"height": 110.0
 	},
 	"pinned_build_system": "",
-	"project": "compass-sass.sublime-workspace",
+	"project": "compass-sass.sublime-project",
 	"replace":
 	{
 		"height": 64.0
@@ -1101,7 +1082,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
