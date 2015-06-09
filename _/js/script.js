@@ -1,0 +1,1 @@
+function otros(){return"otros"}function test(){return"hello"}
