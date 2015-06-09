@@ -1,1 +1,1 @@
-function otros(){return"otros"}function test(){return"hello"}
+function otros(){return"otros"}function test(){return"hola mundo 3"}
