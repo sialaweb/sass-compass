@@ -1,9 +1,12 @@
-$mycolor: #43cba5;
-$mycolor-2: lighten(#43cba5, 40%);
+
+@import "compass";
+@import "theme/reset";
+@import "theme/variables";
 
 body {
 	background-color: $mycolor;
 	color: $mycolor-2;
+	margin: 0;
 
 	h1 {
 		text-align: center;

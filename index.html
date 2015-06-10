@@ -2,18 +2,94 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Sass compass Grunt</title>
+	<title>Sass compass Grunt y otros</title>
 
 	<!-- css -->
 	<link rel="stylesheet" href="_/css/style.css">
+
+	<!-- meta -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
+	
+	<!-- HEADER -->
+	<header>
 
-	<h1>welcome prueba 5 github</h1>
-	<!-- para pruebas de control con github -->
-	<h3>prueba 7</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ab blanditiis eaque repellendus, suscipit aliquid. Labore repellat temporibus distinctio cum a vero eius magnam, soluta, impedit excepturi accusamus, maiores voluptate?</p>
+		<div class="hero">
+			<section class="layout">
+				<div class="branding">
+					<a href="#"><img src="images/misc/rouxacademymeetups.svg" alt="Roux Academy Meetups">
+					</a>
+				</div><!-- branding -->
+			</section><!-- layout -->
+		</div><!-- end hero -->
 
+		<div class="navigation">
+			<section class="layout">
+				<ul class="nav">
+					<li><a href="#">home</a></li>
+					<li><a href="#">about us</a></li>
+					<li><a href="#">speakers</a></li>
+					<li><a href="#">sponsors</a></li>
+					<li><a href="#">Contact us</a></li>
+				</ul><!-- nav -->
+			</section><!-- layout -->
+		</div><!-- end navigation -->
+
+	</header>
+
+	<!-- MAIN -->
+	<!--snippet = .speakerslist>section.layout>h1>{Speaking at the Next Meeting}^.speakers -->
+	<div class="speakerslist">
+		<section class="layout">
+			<h1>Speaking at the Next Meeting</h1>
+			<div class="speakers">
+			<!-- snippet article = article.artist*>h3>{title}^p>a[href="#"]>img.speaker[src="images/speakers/$#_tn.jpg" alt="photo of $#"]^^p>lorem -->
+				<article class="artist">
+					<h3>el arte de la guerra del diseño<span class="small"> con</span><a href="#"> lorenzo_Garcia</a></h3>
+					<p><a href="#"><img src="images/speakers/lorenzo_Garcia_tn.jpg" alt="photo of lorenzo_Garcia" class="speaker"></a></p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit soluta laudantium assumenda, rerum dolores ut consectetur minima magnam rem sit ducimus voluptate quis at, aut nulla dolorum nostrum debitis. Aut.</p>
+				</article>
+				<article class="artist">
+					<h3>el arte de la guerra del diseño<span class="small"> con</span><a href="#"> Hillary_Goldwynn</a></h3>
+					<p><a href="#"><img src="images/speakers/Hillary_Goldwynn_tn.jpg" alt="photo of Hillary_Goldwynn" class="speaker"></a></p>
+					<p>Laborum, dolores blanditiis, dicta, sunt minus consequuntur eius harum fuga in ad ullam molestiae suscipit enim! Tempore, dignissimos eius. Pariatur blanditiis vel ipsam, repudiandae! Amet quam officia, vel eligendi ab.</p>
+				</article>
+				<article class="artist">
+					<h3>el arte de la guerra del diseño<span class="small"> con</span><a href="#"> Riley_rewington</a></h3>
+					<p><a href="#"><img src="images/speakers/Riley_rewington_tn.jpg" alt="photo of Riley_rewington" class="speaker"></a></p>
+					<p>Cupiditate maxime esse ipsum commodi voluptatem, alias iure distinctio, quisquam molestias ad expedita necessitatibus delectus animi blanditiis, sequi odit deserunt repudiandae perferendis quae amet consectetur aspernatur eos recusandae velit tempore.</p>
+				</article>
+			</div><!-- speakers -->
+		</section><!-- layout -->
+	</div><!-- speakerslist -->
+
+
+	<!-- FOOTER -->
+	<footer>
+		<section class="layout">
+			<div class="socialmediaicons">
+				<span class="title">jooin the movement</span>
+				<ul>
+					<li>
+						<a href="http://twitter">
+							<img src="images/socialmedia/twitter.png" alt="twitter" class="icon">
+						</a>
+					</li>
+					<li>
+						<a href="http://facebook">
+							<img src="images/socialmedia/facebook.png" alt="facebook" class="icon">
+						</a>
+					</li>
+					<li>
+						<a href="http://meetup">
+							<img src="images/socialmedia/meetup.png" alt="meetup" class="icon">
+						</a>
+					</li>
+				</ul>
+			</div><!-- socialmediaicons -->
+		</section><!-- layout -->
+	</footer>
 
 	<script src="_/js/script.js"></script>
 	<script src="http://localhost:35729/livereload.js"></script>

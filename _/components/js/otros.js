@@ -1,3 +1,0 @@
-function otros() {
-	return "otros";	
-}

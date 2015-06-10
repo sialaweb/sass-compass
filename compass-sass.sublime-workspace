@@ -99,31 +99,23 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 642,
+				"buffer_size": 3771,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/yoansky/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"file": "_/components/sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 887,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_/js/script.js",
-			"settings":
-			{
-				"buffer_size": 68,
+				"buffer_size": 194,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_/components/js/script.js",
+			"file": "_/components/sass/theme/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 44,
+				"buffer_size": 53,
 				"line_ending": "Windows"
 			}
 		},
@@ -139,7 +131,15 @@
 			"file": "Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 602,
+				"buffer_size": 889,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config.rb",
+			"settings":
+			{
+				"buffer_size": 135,
 				"line_ending": "Windows"
 			}
 		}
@@ -221,15 +221,27 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/Labs/practicas/sass-compass",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/_",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/components",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/components/js",
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/components/sass",
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/components/sass/theme",
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/css",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/js",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/node_modules"
 	],
 	"file_history":
 	[
+		"/C/Users/yoansky/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/yoansky/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/css/style.css",
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/components/js/script.js",
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/components/sass/theme/_reset.scss",
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/components/sass/theme/_variables.scss",
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/js/script.js",
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/package.json",
+		"/C/xampp/htdocs/Labs/practicas/sass-compass/Gruntfile.js",
+		"/C/Users/yoansky/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/yoansky/Desktop/Avada-Child-Theme/style.css",
 		"/C/Users/yoansky/Desktop/Avada-Child-Theme/.DS_Store",
 		"/C/Users/yoansky/AppData/Local/Temp/wz5792/style.css",
@@ -240,8 +252,6 @@
 		"/C/Users/yoansky/AppData/Local/Temp/wza3bc/Avada-Child-Theme/functions.php",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/components/js/otros.js",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/js/otros.js",
-		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/components/js/script.js",
-		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/js/script.js",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/js/script.scss",
 		"/C/Users/yoansky/.gitconfig",
 		"/C/Users/yoansky/Prepros-Error-Log.html",
@@ -279,7 +289,6 @@
 		"/C/Users/yoansky/AppData/Local/Temp/wzac2c/materialize-src/sass/components/date_picker/_default.date.scss",
 		"/C/Users/yoansky/AppData/Local/Temp/wz5ec7/materialize-src/sass/components/_color.scss",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/config.rb",
-		"/C/Users/yoansky/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/yoansky/Desktop/test-mixture-compass/sass/test1.scss",
 		"/C/Users/yoansky/Desktop/test-mixture-compass/.compass/config.rb",
 		"/C/Users/yoansky/Desktop/test-mixture-compass/index.html",
@@ -350,14 +359,7 @@
 		"/C/xampp/htdocs/proyectos/mymparts/themes/SW-mymparts/modules/blockuserinfo/translations/es.php",
 		"/C/xampp/htdocs/proyectos/mymparts/themes/SW-mymparts/sass/modules/blocktopmenu/css/blocktopmenu.scss",
 		"/C/xampp/htdocs/proyectos/mymparts/themes/SW-mymparts/js/global.js",
-		"/C/xampp/htdocs/proyectos/mymparts/themes/SW-mymparts/sass/modules/blockcurrencies/blockcurrencies.scss",
-		"/C/xampp/htdocs/proyectos/mymparts/themes/SW-mymparts/sass/modules/blockuserinfo/blockuserinfo.scss",
-		"/C/xampp/htdocs/proyectos/mymparts/themes/SW-mymparts/sass/modules/blockcontact/blockcontact.scss",
-		"/C/xampp/htdocs/proyectos/mymparts/themes/SW-mymparts/css/product_list.css",
-		"/C/xampp/htdocs/proyectos/mymparts/themes/SW-mymparts/sass/modules/blocktopmenu/css/superfish-modified.scss",
-		"/C/xampp/htdocs/proyectos/mymparts/themes/SW-mymparts/.sass-cache/9b04e7cd537489fcc472bdf9e1744a0e076a0663/_color.scssc",
-		"/C/xampp/htdocs/proyectos/mymparts/themes/SW-mymparts/sass/modules/blocklanguages/blocklanguages.scss",
-		"/C/xampp/htdocs/proyectos/mymparts/themes/SW-mymparts/sass/modules/blockcart/blockcart.scss"
+		"/C/xampp/htdocs/proyectos/mymparts/themes/SW-mymparts/sass/modules/blockcurrencies/blockcurrencies.scss"
 	],
 	"find":
 	{
@@ -383,6 +385,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">con",
+			"con",
+			"lorenzo_Garcia",
+			"title",
+			"jgp",
+			"“",
+			"<img",
+			"</li",
+			"\"",
+			"3",
 			"\"",
 			"kfe_",
 			"\"sass\"",
@@ -500,17 +512,7 @@
 			"footer-logo",
 			"container",
 			"submit",
-			"hook",
-			"Pay by bank wire",
-			"header",
-			"search_block_top",
-			"header",
-			"blocksearch-top",
-			"top",
-			"ie6_countdown_bannercode",
-			"parallax-home",
-			"top",
-			"parallax_section"
+			"hook"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -529,7 +531,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -538,15 +540,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 642,
+						"buffer_size": 3771,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								113,
-								113
+								2698,
+								2698
 							]
 						],
 						"settings":
@@ -599,6 +601,50 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
+						"translation.y": 1001.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_/components/sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"class_or_id": "config",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -606,20 +652,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/Users/yoansky/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"buffer": 2,
+					"file": "_/components/sass/theme/_variables.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 887,
+						"buffer_size": 53,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								813,
-								813
+								53,
+								53
 							]
 						],
 						"settings":
@@ -639,23 +685,28 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
 				{
-					"buffer": 2,
-					"file": "_/js/script.js",
+					"buffer": 3,
+					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 68,
+						"buffer_size": 269,
 						"regions":
 						{
 						},
@@ -678,20 +729,13 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
 								}
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/Seti_UI/Langs/npm JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -701,20 +745,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "_/components/js/script.js",
+					"buffer": 4,
+					"file": "Gruntfile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 44,
+						"buffer_size": 889,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								44,
-								44
+								598,
+								598
 							]
 						],
 						"settings":
@@ -729,49 +773,36 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
 								}
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/Seti_UI/Langs/Gruntfile JS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 316.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 4,
-					"file": "package.json",
+					"buffer": 5,
+					"file": "config.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 269,
+						"buffer_size": 135,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								239
+								23,
+								23
 							]
 						],
 						"settings":
@@ -787,84 +818,18 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
 								}
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "Gruntfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 602,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								427,
-								427
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"apply_syntax_touched": true,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -938,16 +903,16 @@
 		"selected_items":
 		[
 			[
+				"style",
+				"_\\components\\sass\\style.scss"
+			],
+			[
 				"varia",
 				"sass\\theme_variables.scss"
 			],
 			[
 				"video",
 				"sass\\videos\\leccion-6.scss"
-			],
-			[
-				"style",
-				"css\\style.css"
 			],
 			[
 				"type",
