@@ -1,0 +1,12 @@
+$mycolor: #43cba5;
+$mycolor-2: lighten(#43cba5, 40%);
+
+body {
+	background-color: $mycolor;
+	color: $mycolor-2;
+
+	h1 {
+		text-align: center;
+		font-style: italic;
+	}
+}
