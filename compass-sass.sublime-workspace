@@ -221,6 +221,7 @@
 	},
 	"expanded_folders":
 	[
+		"/C/xampp/htdocs/Labs/practicas/sass-compass",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/_",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/components",
 		"/C/xampp/htdocs/Labs/practicas/sass-compass/_/components/js",
@@ -547,8 +548,8 @@
 						"selection":
 						[
 							[
-								2698,
-								2698
+								2896,
+								2896
 							]
 						],
 						"settings":

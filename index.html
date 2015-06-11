@@ -44,7 +44,7 @@
 		<section class="layout">
 			<h1>Speaking at the Next Meeting</h1>
 			<div class="speakers">
-			<!-- snippet article = article.artist*>h3>{title}^p>a[href="#"]>img.speaker[src="images/speakers/$#_tn.jpg" alt="photo of $#"]^^p>lorem -->
+				<!-- snippet article = article.artist*>h3>{title}^p>a[href="#"]>img.speaker[src="images/speakers/$#_tn.jpg" alt="photo of $#"]^^p>lorem -->
 				<article class="artist">
 					<h3>el arte de la guerra del diseño<span class="small"> con</span><a href="#"> lorenzo_Garcia</a></h3>
 					<p><a href="#"><img src="images/speakers/lorenzo_Garcia_tn.jpg" alt="photo of lorenzo_Garcia" class="speaker"></a></p>
@@ -63,6 +63,73 @@
 			</div><!-- speakers -->
 		</section><!-- layout -->
 	</div><!-- speakerslist -->
+
+	<!-- articles -->
+	<!--snippet = section.layout>.primary>article#idname*3 -->
+	<section class="layout">
+		<div class="primary">
+			<article id="nextmeeting">
+				<!-- snippet = h1>i.icon-calendar{ Nextmeeting}^a>img[src="images/misc/hotel_gwendoline.jpg"]^p{lorem} -->
+				<h1><i class="icon-calendar"> Nextmeeting</i></h1>
+				<a href=""><img src="images/misc/hotel_gwendoline.jpg" alt=""></a>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias voluptatum incidunt, ducimus, quae facere iste.</p>
+			</article> <!-- end nextmeeting -->
+			<article id="whoarewe">
+				<h1>who are we?</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus repellendus quas dolor incidunt eos expedita reprehenderit aut asperiores, cumque officiis fuga perspiciatis corporis, molestiae sequi optio, aspernatur id autem. Quaerat!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus repellendus quas dolor incidunt eos expedita reprehenderit aut asperiores, cumque officiis fuga perspiciatis corporis, molestiae sequi optio, aspernatur id autem. Quaerat!</p>
+			</article><!-- whoarewe -->
+			<article id="getbusy">
+				<h1>Get Busy!</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum eius sint aspernatur voluptatem beatae unde, officiis atque officia assumenda, voluptas in vero quibusdam repellat porro culpa minima, ducimus, iste eos. y tambien puedes <a href="hrefhtpp://www.facebook.com">unirtenos en Facebook</a></p>
+			</article><!-- getbusy -->
+		</div><!-- primary -->
+		<aside class="secondary">
+			<article id="whoshouldcome">
+				<h1>who Should Come</h1>
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, fuga.</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, fuga.</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, fuga.</li>
+				</ul>
+			</article><!-- whoshouldcome -->
+			<article id="artistlist">
+				<!--snippets = h1{Artwork on display}+.pixgrid>img*5[src="images/arwork/hillary_goldwynn_$_tn.jpg" alt="hillary goldwynn $"]+img*5[src="images/arwork/lorenzo_garcia_$_tn.jpg" alt="/lorenzo garcia $"]+img*5[src="images/arwork/riley_rewinton_$_tn.jpg" alt="riley rewinton $"] -->
+				<h1>Artwork on display</h1>
+					<div class="pixgrid">
+						<img src="images/artwork/Hillary_Goldwynn_01_tn.jpg" alt="Hillary Goldwynn 1">
+						<img src="images/artwork/Hillary_Goldwynn_02_tn.jpg" alt="Hillary Goldwynn 2">
+						<img src="images/artwork/Hillary_Goldwynn_03_tn.jpg" alt="Hillary Goldwynn 3">
+						<img src="images/artwork/Hillary_Goldwynn_04_tn.jpg" alt="Hillary Goldwynn 4">
+						<img src="images/artwork/Hillary_Goldwynn_05_tn.jpg" alt="Hillary Goldwynn 5">
+
+						<img src="images/artwork/Lorenzo_Garcia_01_tn.jpg" alt="Lorenzo Garcia 1">
+						<img src="images/artwork/Lorenzo_Garcia_02_tn.jpg" alt="Lorenzo Garcia 2">
+						<img src="images/artwork/Lorenzo_Garcia_03_tn.jpg" alt="Lorenzo Garcia 3">
+						<img src="images/artwork/Lorenzo_Garcia_04_tn.jpg" alt="Lorenzo Garcia 4">
+
+						<img src="images/artwork/Riley_rewington_01_tn.jpg" alt="Riley rewington 1">
+						<img src="images/artwork/Riley_rewington_02_tn.jpg" alt="Riley rewington 2">
+						<img src="images/artwork/Riley_rewington_03_tn.jpg" alt="Riley rewington 3">
+						<img src="images/artwork/Riley_rewington_04_tn.jpg" alt="Riley rewington 4">
+						<img src="images/artwork/Riley_rewington_05_tn.jpg" alt="Riley rewington 5">
+					</div><!-- Artwork -->
+			</article><!-- artistlist -->
+			<article id="mailinglist">
+				<h1>join our mailing list</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+				<form action="" class="emailsignup">
+					<input type="text" name placeholder="your name">
+					<input type="text" name="email" placeholder="your email">
+					<div>
+						<input type="text" value="subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+					</div>
+				</form><!-- emailsignup -->
+			</article><!-- mailinglist -->
+		</aside><!-- secondary -->
+	</section><!-- layout -->
+
 
 
 	<!-- FOOTER -->

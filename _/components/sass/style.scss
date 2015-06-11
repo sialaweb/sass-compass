@@ -1,15 +1,9 @@
 
 @import "compass";
-@import "theme/reset";
-@import "theme/variables";
+@import "susy";
 
-body {
-	background-color: $mycolor;
-	color: $mycolor-2;
-	margin: 0;
-
-	h1 {
-		text-align: center;
-		font-style: italic;
-	}
-}
+@import "variables";
+@import "mixins";
+@import "base";
+@import "layout";
+@import "material";  //modules
