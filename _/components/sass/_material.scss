@@ -1,0 +1,35 @@
+@import "compass/utilities/general/clearfix";
+
+.speakers {
+	.artist {
+		@include clearfix;
+
+		h3 {
+			padding-top: 10px;
+			padding-bottom: 5px;
+			border-bottom: 1px dotted $lightgray;
+			margin-bottom: 5px;
+		}
+
+		img {
+			width: 120px;
+			float: left;
+			margin {
+				right: 10px;
+				bottom: 10px;
+			}
+		}
+	}
+}
+
+#nextmeeting {
+	@include clearfix;
+
+	img {
+		width: 30%;
+		max-width: 130px;
+		float: left;
+		margin-right: 3%;
+	}
+}
+
