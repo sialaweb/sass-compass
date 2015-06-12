@@ -108,34 +108,68 @@ p {
   font-size: 1rem;
   color: #2176C7; }
 
-/* line 4, ../components/sass/_material.scss */
+/* line 5, ../components/sass/_material.scss */
 .speakers .artist {
   overflow: hidden;
   *zoom: 1; }
-  /* line 7, ../components/sass/_material.scss */
+  /* line 8, ../components/sass/_material.scss */
   .speakers .artist h3 {
     padding-top: 10px;
     padding-bottom: 5px;
     border-bottom: 1px dotted #819090;
     margin-bottom: 5px; }
-  /* line 14, ../components/sass/_material.scss */
+  /* line 15, ../components/sass/_material.scss */
   .speakers .artist img {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     width: 120px;
     float: left; }
-    /* line 17, ../components/sass/_material.scss */
+    /* line 19, ../components/sass/_material.scss */
     .speakers .artist img margin {
       right: 10px;
       bottom: 10px; }
 
-/* line 25, ../components/sass/_material.scss */
+/* line 27, ../components/sass/_material.scss */
 #nextmeeting {
   overflow: hidden;
   *zoom: 1; }
-  /* line 28, ../components/sass/_material.scss */
+  /* line 30, ../components/sass/_material.scss */
   #nextmeeting img {
     width: 30%;
     max-width: 130px;
     float: left;
     margin-right: 3%; }
+
+/* line 39, ../components/sass/_material.scss */
+.socialmediaicons .title {
+  float: left; }
+/* line 43, ../components/sass/_material.scss */
+.socialmediaicons ul {
+  float: left; }
+  /* line 46, ../components/sass/_material.scss */
+  .socialmediaicons ul li {
+    display: inline-block;
+    margin-left: 5px; }
+    /* line 50, ../components/sass/_material.scss */
+    .socialmediaicons ul li img {
+      width: 30px;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%; }
+
+/* line 58, ../components/sass/_material.scss */
+.pixgrid {
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 10px; }
+  /* line 62, ../components/sass/_material.scss */
+  .pixgrid img {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 30%;
+    max-width: 120px;
+    cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
